@@ -1,0 +1,122 @@
+.firstscreen {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: -7px;
+
+    background: #EEEFF1;
+}
+
+.firstscreen-header {
+    display: flex;
+}
+
+.firstscreen-header__logo {
+    position: absolute;
+    width: 96px;
+    height: 60px;
+    left: 402px;
+    top: 50px;
+
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #34547A;
+}
+
+.firstscreen-header__navbar {
+    position: absolute;
+    width: 611px;
+    height: 16px;
+    left: 896px;
+    top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__item {
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.navbar__item-active {
+    font-weight: 500;
+    color: #34547A;
+}
+
+.firstscreen-main_img {
+    position: absolute;
+    width: 357px;
+    height: 233.7px;
+    left: 487px;
+    top: 271px;
+}
+
+.firstscreen-main__title {
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 974px;
+    top: 250px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+.firstscreen-main__text {
+    position: absolute;
+    width: 540px;
+    height: 67px;
+    left: 975px;
+    top: 355px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+}
+
+.button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 65px;
+    left: 975px;
+    top: 482px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    background: #34547A;
+}
+
