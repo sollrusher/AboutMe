@@ -284,3 +284,57 @@ body{
     width: 555px;
     height: 450px;
  }
+
+ 
+.video {
+    height: 804px;
+    padding: 100px 0 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #EEEFF1;
+
+ }
+.video__title {
+    margin: 9px 0 0 0;
+ }
+.video__title h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0;
+
+    color: #000000;
+}
+.video__text {
+    width: 540px;
+    height: 67px;
+    margin: 40px 0 59px 0;
+ }
+.video__text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0;
+
+    color: #727272;
+}
+.video__player {
+    width: 1110px;
+    height: 600px;
+    background: url(/img/video/Rectangle5.png);
+    background-size: contain;
+    color: rgba(0, 0, 0, 0.65);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
