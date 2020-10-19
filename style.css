@@ -226,3 +226,61 @@ body{
     font-size: 16px;
     line-height: 26px;
  }
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1150px;
+    height: 450px;
+    margin: 100px 385px;
+ }
+.skills__list {
+    width: 445px;
+    height: 257px;
+
+    display: flex;
+    flex-direction: column;
+ }
+.skills-list__title {
+    margin: 3px 0 22px 0;
+ }
+.skills-list__title h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 0;
+
+    color: #000000;
+}
+.skills-list__item {
+    margin: 0 0 8px 0;
+ }
+.list-item__title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0 15px 0;
+    color: #727272;
+}
+.list-item__progressbar {
+    width: 445px;
+    height: 4px;
+    background: #C4C4C4;
+ }
+
+.list-item__progressbar  span {
+    display: block;
+    height: 100%;
+    background: #34547A;
+}
+
+.skills__image img{
+    width: 555px;
+    height: 450px;
+ }
