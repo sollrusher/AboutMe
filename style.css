@@ -338,3 +338,23 @@ body{
     justify-content: center;
     align-items: center;
  }
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    height: 960px;
+    padding: 28px 5px 28px 0;
+}
+
+.projects__image {
+    width: calc(100% / 4);
+    margin: -2px 0;
+ }
+
+
+.projects__image-view {
+
+    
+    background-image: url(/img/projects/view.png);
+    
+ }
