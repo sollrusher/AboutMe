@@ -347,14 +347,65 @@ body{
 }
 
 .projects__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: calc(100% / 4);
+    height: 480px;
     margin: -2px 0;
- }
-
-
-.projects__image-view {
-
     
-    background-image: url(/img/projects/view.png);
     
  }
+
+ .projects__image:nth-child(1){
+    background: url(/img/projects/Rectangle\ 7.1.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(2){
+    background: url(/img/projects/Rectangle\ 7.3.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(3){
+    background: url(/img/projects/Rectangle\ 7.2.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(4){
+    background: url(/img/projects/Rectangle\ 7.3.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(5){
+    background: url(/img/projects/Rectangle\ 7.5.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(6){
+    background: url(/img/projects/Rectangle\ 7.6.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(7){
+    background: url(/img/projects/Rectangle\ 7.7.png);
+    background-size: auto;
+ }
+ .projects__image:nth-child(8){
+    background: url(/img/projects/Rectangle\ 7.png);
+    background-size: auto;
+ }
+
+.image_view{
+
+
+    display: none;
+
+}
+
+.projects__image:hover .projects__image-overlay{
+    display: flex;
+    background: rgba(52, 84, 122, 0.8);
+}
+.projects__image-overlay{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
