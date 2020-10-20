@@ -527,3 +527,55 @@ body {
     text-align: center;
     letter-spacing: 0.15em;
 }
+
+.footer {
+    height: 151px;
+    background: #34547A;
+
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+
+    display: flex;
+    padding: 50px 389px 50px 406px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .footer__copyright h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: white;
+    margin: 0 0 20px 0;
+
+    height: 19px;
+    width: 130px;
+ }
+
+ .footer__copyright p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0;
+    color: white;
+
+    height: 12px;
+    width: 193px;
+ }
+ .footer__links {
+    height: 40px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__links img{
+    height: 22.821805953979492px;
+    width: 43.750099182128906px;
+  }
