@@ -209,14 +209,19 @@ body {
 }
 
 .count-item__text {
+    width: 71px;
+    height: 44px;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    color: white
+    color: white;
+    height: 50px;
 }
 
 .count-item__text h3 {
     margin: 0;
+    width: 36px;
+    height: 19px;
 
     font-family: Roboto;
     font-style: normal;
@@ -226,7 +231,9 @@ body {
 }
 
 .count-item__text p {
-    margin: 2px 0 0 0;
+    margin: 10px 0 0 0;
+    width: 71px;
+    height: 15px;
 
     font-family: Roboto;
     font-style: normal;
@@ -312,9 +319,7 @@ body {
 
 }
 
-.video__title {
-    margin: 9px 0 0 0;
-}
+
 
 .video__title h2 {
     font-family: Roboto;
@@ -488,7 +493,7 @@ body {
 
 .form__main-name {
     width: 255px;
-    height: 44px;
+    height: 50px;
     margin: 0 15px 20px 0;
     outline: none;
     border: none;
@@ -497,7 +502,7 @@ body {
 
 .form__main-email {
     width: 255px;
-    height: 44px;
+    height: 50px;
     margin: 0 0 20px 15px;
     outline: none;
     border: none;
@@ -559,6 +564,10 @@ body {
 
     text-align: center;
     letter-spacing: 0.15em;
+
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
 }
 
 .footer {

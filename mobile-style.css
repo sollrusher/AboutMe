@@ -18,6 +18,7 @@
   .firstscreen__main {
     padding: 0;
     flex-direction: column;
+    justify-content: center;
   }
 
   .firstscreen-main__img {
@@ -74,8 +75,8 @@
   
 
   .about__title {
-    width: 403px;
-    height: 30px;
+    width: 126.39px;
+    height: 38px;
 }
 
   .about__text {
@@ -126,7 +127,7 @@ box-sizing: border-box;
 
   .skills::before {
     content: " ";
-    margin: 15px 0 0 0;
+    margin: 82px 0 0 0;
     width: 339px;
     height: 275px;
    background-image: url(/img/skills/Rectangle3.png);
@@ -145,7 +146,7 @@ box-sizing: border-box;
  }
 
  .list-item__progressbar {
-   width: 340px;
+   width: 100%;
  }
 
  .video{
@@ -159,7 +160,7 @@ box-sizing: border-box;
  .video__text {
   width: 323px;
   height: 98px;
-
+  margin: 34px 0 57px 0;
  }
 
  .video__text p {
@@ -245,6 +246,7 @@ line-height: 120%;
 .form__title {
   width: 260px;
   height: 38px;
+  margin: 0 0 34px 0;
 }
 
 .form__text{
