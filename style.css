@@ -487,27 +487,59 @@ body {
 }
 
 .form__main-name {
-    width: 251px;
+    width: 255px;
     height: 44px;
     margin: 0 15px 20px 0;
     outline: none;
     border: none;
+    padding: 0 0 0 20px;
 }
 
 .form__main-email {
-    width: 251px;
+    width: 255px;
     height: 44px;
     margin: 0 0 20px 15px;
     outline: none;
     border: none;
+    padding: 0 0 0 20px;
 }
 
 .form__main-text {
-    width: 536px;
+    width: 540px;
     height: 175px;
     outline: none;
     border: none;
     margin: 0 0 50px 0;
+    padding: 17px 0 0 20px;;
+    resize:none;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+.form__main input::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+
+}
+
+.form__main textarea::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+
+}
+.form__main div input{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+
 }
 
 .textmail__wrapper {
