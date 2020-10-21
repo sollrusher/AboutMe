@@ -2,8 +2,8 @@
 
 
   .firstscreen {
-    height: 782px;
     display: block;
+    height: auto;
 
   }
 
@@ -19,18 +19,21 @@
     padding: 0;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: auto;
   }
 
   .firstscreen-main__img {
     height: 195px;
     width: 298px;
-    margin: 67px 38.5px 51px 38.5px;
+    margin: 67px 0 51px 0;
   }
 
   .firstscreen-main__about {
     justify-content: start;
     width: 100vw;
     align-items: center;
+    height: auto;
   }
 
   .main-about__title {
@@ -68,8 +71,11 @@
     margin: 0;
   }
 
+  .firstscreen .button {
+    margin: 0 0 95px 0;
+  }
+
   .about {
-    width: 375px;
     height: 351px;
   }
   
@@ -93,13 +99,26 @@
 
 .count {
   height: 477px;
-  padding: 75px 0 0 0;
+  width: 100%;
+  padding: 75px 0;
+
+  justify-content: center;
+
+}
+
+.count__wrapper{
+  height: 477px;
+  /* margin: 75px 0; */
+  /* padding: 75px 30% 0 20%; */
+  width: 400px;
   flex-direction: column;
   flex-wrap: wrap;
 
+  justify-content: start;
+
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
--moz-box-sizing: border-box;    /* Firefox, other Gecko */
-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box; 
 }
 
  .count__item{
@@ -136,12 +155,19 @@ box-sizing: border-box;
    display: block;
  } 
 
+ .skills__wrapper{
+   width: auto;
+   height: auto;
+ }
+
  .skills__list{
    width: 350px;
  }
-
+ .skills-list__title{
+  margin: 98px 0 42px 0;
+ }
  .skills-list__title h2 {
-   margin: 98px 0 0 0;
+
    text-align: center;
  }
 
