@@ -8,10 +8,10 @@ body {
     display: flex;
     max-width: 100%;
     width: 100vw;
-    height: 700px;
     background: #EEEFF1;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 0 146px 0;
 }
 
 .firstscreen__header {
@@ -41,7 +41,7 @@ body {
 
 .firstscreen-header__navbar {
 
-    width: 611px;
+    
     height: 16px;
     margin-right: 11px;
     display: flex;
@@ -55,7 +55,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-
+    margin: 0 42px 0 0;
     letter-spacing: 0.1em;
 
     color: #000000;
@@ -67,9 +67,9 @@ body {
 }
 
 .firstscreen__main {
+    margin: 162px 0 0 0;
     display: flex;
     justify-content: space-between;
-    width: 55%;
     padding: 0 0 0 40px;
 }
 
@@ -137,19 +137,18 @@ body {
     text-align: center;
     letter-spacing: 0.1em;
 
-    /* margin: 0 0 13px 1px; */
     color: #FFFFFF;
     background: #34547A;
 }
 
 .about {
     display: flex;
-    height: 366px;
     width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center
+    text-align: center;
+    padding: 119px 0 100px 0;
 }
 
 .about__title {
@@ -190,9 +189,9 @@ body {
 }
 
 .count {
-    height: 250px;
+    /* height: 250px; */
     display: flex;
-    padding: 0 382px;
+    padding: 100px 382px;
 
     background: #34547A;
 
@@ -256,7 +255,8 @@ body {
 }
 
 .skills {
-    height: 653px;
+    /* height: 653px; */
+    padding: 101px;
     width: 100%;
     display: flex;
 
@@ -329,7 +329,6 @@ body {
 
 
 .video {
-    height: 804px;
     padding: 100px 0 100px 0;
 
     display: flex;
@@ -423,7 +422,6 @@ body {
 
 .form {
     background-color: rgba(238, 239, 241, 1);
-    height: 562px;
     display: flex;
     flex-direction: column;
 
@@ -561,7 +559,7 @@ body {
 }
 
 .footer {
-    height: 151px;
+
     background: #34547A;
 
     -webkit-box-sizing: border-box;
